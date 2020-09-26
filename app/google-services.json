@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "88599001518",
+    "firebase_url": "https://ebritti.firebaseio.com",
+    "project_id": "ebritti",
+    "storage_bucket": "ebritti.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:88599001518:android:1de5a0f494a7da1dabb03f",
+        "android_client_info": {
+          "package_name": "com.sarker.ebritti"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "88599001518-1ersc4tclplbd24np33vlrqufu0mioht.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDO2p_1a-hcHPY15WfWPegf-TZB6yE7N-0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "88599001518-1ersc4tclplbd24np33vlrqufu0mioht.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
