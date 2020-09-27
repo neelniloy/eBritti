@@ -78,8 +78,24 @@ public class ViewStudentList extends AppCompatActivity {
             @Override
             public void afterTextChanged(Editable mEdit)
             {
+                if(search.getText().toString().length()>0){
 
-                    searchStudent(search.getText().toString());
+                    String str = search.getText().toString();
+
+                    StringBuilder capitalizedString = new StringBuilder();
+                    String[] splited = str.trim().split("\\s+");
+
+                    for (String string : splited) {
+                        String s1 = string.substring(0, 1).toUpperCase();
+                        String nameCapitalized = s1 + string.substring(1);
+
+                        capitalizedString.append(nameCapitalized);
+                        capitalizedString.append(" ");
+                    }
+
+                    searchStudent(capitalizedString.toString().trim());
+
+                }
 
 
             }
